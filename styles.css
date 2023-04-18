@@ -1,0 +1,57 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusable
+        3.2 Specific
+    4. Areas
+        4.1 Header
+            4.1.1 Navigation Bar
+            4.1.2 Hero Section
+        4.2 Main
+        4.3 Footer
+            4.3.1 Form
+    5. Media Queries
+////////////////////////*/
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+:root {
+
+}
+/* ------------------------------- 2. Typography ----------------------------------- */
+/* ------------------------------- 3. Layout --------------------------------------- */
+/* ---------------------- 3.1 Reusable ----------------------- */
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.innerContainer {
+    flex-basis: 1200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+/* ---------------------- 3.2 Specific ------------------------ */
+/* ------------------------------- 4. Areas ---------------------------------------- */
+/* ---------------------- 4.1 Header -------------------------- */
+/* --------------- 4.1.1 Navigation Bar ---------------- */
+/* --------------- 4.1.2 Hero Section ------------------ */
+/* ---------------------- 4.2 Main ---------------------------- */
+/* ---------------------- 4.3 Footer -------------------------- */
+/* ------------------------------- 5. Media Queries -------------------------------- */
